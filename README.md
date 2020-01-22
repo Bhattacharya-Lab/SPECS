@@ -39,7 +39,6 @@ Usage: ./SPECS -m model -n native
 ```
 <b>Example commands to run SPECS</b>
 ```
-$ cd SPECS
 $ ./SPECS -m ../example/sample_model.pdb -n ../example/sample_native.pdb
 ```
 ## Output
