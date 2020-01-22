@@ -78,5 +78,5 @@ RLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALT
 123456789012345678901234567890123456789012345678901234567890123456789012
 ```
 ## Contact
-For question and comment, please contact,<br/>
+For questions and comments, please contact,<br/>
 bhattacharyad@auburn.edu
