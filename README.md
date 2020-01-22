@@ -43,7 +43,7 @@ $ cd SPECS
 $ ./SPECS -m example/sample_model.pdb -n example/sample_native.pdb
 ```
 ## Output
-SPECS offers dynamic input validation and offers instantaneous output. Upon running the above command, you will see following output
+SPECS offers dynamic input validation and provideds instantaneous output. Upon running the above command, you will see following output
 ```
 **********************************************************************
 *                            SPECS                                   *
