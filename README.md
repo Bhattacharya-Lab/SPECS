@@ -45,36 +45,36 @@ $ ./SPECS -m ../example/sample_model.pdb -n ../example/sample_native.pdb
 SPECS offers dynamic input validation and provideds instantaneous output. Upon running the above command, you will see following output
 ```
 **********************************************************************
-*                            SPECS                                   *
+*                           SPECS-SCORE                              *
 *          Superposition-based Protein Embedded CA SC score          *
 * Range of SPECS:                                                    *
 *     0.0 <= SPECS <= 1.0, higher scores indicate better similarity  *
 * For comments, please email to bhattacharyad@auburn.edu             *
 **********************************************************************
 
-Structure1: example/sample_model.pdb Length = 72
-Structure2: example/sample_native.pdb Length = 72
-Number of residues in common = 72
-RMSD of common residues = 3.323
+Structure1: ../example/sample_model.pdb Length = 75
+Structure2: ../example/sample_native.pdb Length = 62
+Number of residues in common = 62
+RMSD of common residues = 24.227
 
-SPECS = 0.3823 (dCA = 0.4722 rSC = 0.3823 angl = 0.1597 ang2 = 0.3903 tors = 0.1417)
-TM-score = 0.6443 (d0 = 2.97)
-MaxSub-score = 0.6197 (d0 = 3.50)
-GDT-TS-score = 0.6840 %(d<1) = 0.3611 %(d<2) = 0.5556 %(d<4) = 0.8333 %(d<8) = 0.9861
-GDT-HA-score = 0.4722 %(d<0.5) = 0.1389 %(d<1) = 0.3611 %(d<2) = 0.5556 %(d<4) = 0.8333
+SPECS-score  = 0.3371 (dCA = 0.4395 rSC = 0.2921 angl = 0.2532 ang2 = 0.2790 tors = 0.1144)
+TM-score     = 0.4688 (d0 = 2.67)
+MaxSub-score = 0.4627 (d0 = 3.50)
+GDT-TS-score = 0.5161 %(d<1) = 0.4355 %(d<2) = 0.4839 %(d<4) = 0.5484 %(d<8) = 0.5968
+GDT-HA-score = 0.4395 %(d<0.5) = 0.2903 %(d<1) = 0.4355 %(d<2) = 0.4839 %(d<4) = 0.5484
 
 -------- rotation matrix to rotate Chain-1 to Chain-2 ------
 i             t(i)                u(i,1)               u(i,2)               u(i,3)
-1       -23.6888008118         0.7470999956         0.6341999769         0.1993000060
-2        12.4891996384        -0.0847999975        -0.2064999938         0.9747999907
-3        45.8860015869         0.6593000293        -0.7451000214        -0.1005000025
+1        -3.3315000534        -0.2375999987         0.5454000235        -0.8037999868
+2        14.3242998123         0.4174999893        -0.6898000240        -0.5914999843
+3        64.4764022827        -0.8769999743        -0.4762000144        -0.0637999997
 
-Superposition in the TM-score: Length(d<5.0) = 62 RMSD = 2.26
+Superposition in the TM-score: Length(d<5.0) = 31 RMSD = 1.12
 (':' denotes the residue pairs of distance < 5.0 Amstrong)
-RLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALT
-::::::::::::::::::::::    :::::::::::::::::::::::::::::::::     :::: :::
-RLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALT
-123456789012345678901234567890123456789012345678901234567890123456789012
+GHMEGKPKMEPAASSQAAVEELRTQVRELRSIIETMKDQQKREIKQLLSELDEEKKIRLRLQMEVNDIKKALQSK
+              :::::::::::::::::::::::::::::::                              
+----------PAASSQAAVEELRTQVRELRSIIETMKDQQKREIKQLLSELDEEKKIRLRLQMEVNDIKKAL---
+123456789012345678901234567890123456789012345678901234567890123456789012345
 ```
 ## Contact
 For questions and comments, please contact,<br/>
