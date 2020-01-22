@@ -11,7 +11,7 @@ You can run SPECS from <a href="http://watson.cse.eng.auburn.edu/SPECS/">SPECS w
 SPECS is a stand-alone application. To download and install SPECS, please type,
 ```
 $ git clone https://github.com/Bhattacharya-Lab/SPECS.git
-$ cd SPECS
+$ cd SPECS/src
 $ g++ -o SPECS SPECS.cpp
 ```
 ## Usage
