@@ -8,7 +8,7 @@ SPECS is a side-chain-orientation-included protein model-native similarity metri
 
 ## Installation
 You can run SPECS from <a href="http://watson.cse.eng.auburn.edu/SPECS/">SPECS web-server</a>. However, for large-scale benchmarking we strongly recommend that you install and run SPECS locally.
-SPECS is a stand-alone application. To download and install SPECS, please type,
+SPECS is a stand-alone application. To install, you just need to download and compile as follows,
 ```
 $ git clone https://github.com/Bhattacharya-Lab/SPECS.git
 $ cd SPECS/src
