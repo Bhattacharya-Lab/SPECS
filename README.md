@@ -1,7 +1,7 @@
 # SPECS
 <b>Superposition-based Protein Embedded CA SC score</b>
 
-SPECS is a side-chain-orientation-included protein model-native similarity metric for improved evaluation of protein structural models. SPECS stands for <b>S</b>uperposition-based <b>P</b>rotein <b>E</b>mbedded <b>C</b>A <b>S</b>C score. It combines side-chain orientation and global distance based measures in an integrated framework using the united-residue model of polypeptide conformation for computing model-native similarity. SPECS captures both global and local quality aspects when evaluating structural similarity and is sensitive to minute variations in side-chain, thereby being a robust evaluation metric covering a wide range of modeling scenarios and various aspects of structural similarity. SPECS has the value in (0,1], where 1 indicates a perfect match between two structures.
+SPECS is a side-chain-orientation-included protein model-native similarity metric for improved evaluation of protein structural models. SPECS stands for <b>Superposition-based Protein Embedded CA SC score</b>. It combines side-chain orientation and global distance based measures in an integrated framework using the united-residue model of polypeptide conformation for computing model-native similarity. SPECS captures both global and local quality aspects when evaluating structural similarity and is sensitive to minute variations in side-chain, thereby being a robust evaluation metric covering a wide range of modeling scenarios and various aspects of structural similarity. SPECS has the value in (0,1], where 1 indicates a perfect match between two structures.
 
 ## Requirement
 1. Linux system: SPECS is tested on on x86_64 redhat linux system
