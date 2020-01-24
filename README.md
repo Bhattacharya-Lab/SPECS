@@ -17,7 +17,7 @@ $ g++ -o SPECS SPECS.cpp
 ## Usage
 To run SPECS, type
 ```
-$ ./SPECS
+$ ./SPECS -h
 ```
 You will see the following output
 ```
@@ -28,9 +28,6 @@ You will see the following output
 *     0.0 <= SPECS <= 1.0, higher scores indicate better similarity  *
 * For comments, please email to bhattacharyad@auburn.edu             *
 **********************************************************************
-
-
-Error! Model file must be provided
 
 Usage: ./SPECS -m model -n native
    -m model  : model pdb file
