@@ -49,8 +49,8 @@ SPECS provides instantaneous output and computes other structural similarity met
 * For comments, please email to bhattacharyad@auburn.edu             *
 **********************************************************************
 
-Structure1: /var/www/cgi-bin/SPECS/upload/SPECS-1557700335129401/model Length = 72
-Structure2: /var/www/cgi-bin/SPECS/upload/SPECS-1557700335129401/native Length = 72
+Structure1: ../example/model.pdb Length = 72
+Structure2: ../example/native.pdb Length = 72
 Number of residues in common = 72
 RMSD of common residues = 3.323
 
