@@ -39,7 +39,7 @@ Usage: ./SPECS -m model -n native
 $ ./SPECS -m ../example/model.pdb -n ../example/native.pdb
 ```
 ## Output
-SPECS provides instantaneous output and computes other structural similarity metrics. Upon running the above example command, you should see following output:
+SPECS provides instantaneous output and computes other structural similarity metrics. For ease of parsing, the output format of SPECS has been kept similar to the currently popular <a href="https://zhanglab.ccmb.med.umich.edu/TM-score/">TM-score</a> program. Upon running the above example command, you should see following output:
 ```
 **********************************************************************
 *                           SPECS-SCORE                              *
