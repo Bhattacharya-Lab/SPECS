@@ -78,4 +78,4 @@ For questions and comments, please contact,<br/>
 bhattacharyad@auburn.edu
 
 ## Reference
-Alapati, R., Shuvo, MH., Bhattacharya, D. (2019) SPECS: Integration of side-chain orientation and global distance-based measures for improved evaluation of protein structural models. Submitted.
+Alapati, R., Shuvo, MH., Bhattacharya, D. (2020) SPECS: Integration of side-chain orientation and global distance-based measures for improved evaluation of protein structural models. PLOS ONE. Accepted.
