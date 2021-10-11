@@ -2,6 +2,8 @@
 
 SPECS is a side-chain-orientation-included protein model-native similarity metric for improved evaluation of protein structural models. SPECS stands for <b>Superposition-based Protein Embedded CA SC</b> score. It combines side-chain orientation and global distance based measures in an integrated framework using the united-residue model of polypeptide conformation for computing model-native similarity. SPECS captures both global and local quality aspects when evaluating structural similarity and is sensitive to minute variations in side-chain, thereby being a robust evaluation metric covering a wide range of modeling scenarios and various aspects of structural similarity. SPECS has the value in (0,1], where 1 indicates a perfect match between two structures.
 
+If you find SPECS useful, please cite our <a href="https://doi.org/10.1371/journal.pone.0228245">PLOS ONE paper</a>.
+
 ## Requirement
 1. Linux system: SPECS was tested on 64-bit Linux system
 2. GCC compiler
@@ -73,9 +75,3 @@ RLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALT
 RLALSDAHFRRICQLIYQRAGIVLADHKRDMVYNRLVRRLRALGLDDFGRYLSMLEANQNSAEWQAFINALT
 123456789012345678901234567890123456789012345678901234567890123456789012
 ```
-## Contact
-For questions and comments, please contact,<br/>
-bhattacharyad@auburn.edu
-
-## Reference
-Alapati, R., Shuvo, MH., Bhattacharya, D. (2020) SPECS: Integration of side-chain orientation and global distance-based measures for improved evaluation of protein structural models. PLOS ONE. Accepted.
